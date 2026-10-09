@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nova Digital helps businesses grow with modern websites and digital solutions.">
+    <title>Nova Digital | Grow Your Business</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">nova<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact" class="nav-button">Let's Talk</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">YOUR DIGITAL GROWTH PARTNER</p>
+
+                <h1>Build a Stronger <span>Digital</span> Presence.</h1>
+
+                <p class="hero-description">
+                    We help businesses stand out with modern websites,
+                    creative strategies, and digital solutions designed
+                    to move your business forward.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#contact" class="button primary-button">
+                        Start Your Project →
+                    </a>
+                    <a href="#services" class="text-link">
+                        Explore Services
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    Creative solutions for growing businesses
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="card-top">
+                        <span class="mini-logo">nova.</span>
+                        <span class="live-label">DIGITAL STUDIO</span>
+                    </div>
+
+                    <div class="visual-circle">
+                        <div class="circle-inner">
+                            <span>IDEAS</span>
+                            <strong>INTO</strong>
+                            <span>IMPACT</span>
+                        </div>
+                    </div>
+
+                    <div class="visual-footer">
+                        <div>
+                            <strong>Think bigger.</strong>
+                            <p>Build smarter.</p>
+                        </div>
+                        <span class="arrow-icon">↗</span>
+                    </div>
+                </div>
+
+                <div class="floating-tag tag-one">✦ Creative Design</div>
+                <div class="floating-tag tag-two">Web Solutions ↗</div>
+            </div>
+        </section>
+
+        <section class="trust-section">
+            <div class="container trust-content">
+                <p>HELPING BUSINESSES MOVE FORWARD</p>
+                <span>Strategy</span>
+                <span>Design</span>
+                <span>Development</span>
+                <span>Growth</span>
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">WHO WE ARE</p>
+                <h2>Good ideas deserve <span>great execution.</span></h2>
+            </div>
+
+            <p class="about-text">
+                Nova Digital is a creative digital studio focused on helping
+                businesses build a clear online presence. We combine thoughtful
+                design with practical solutions to create meaningful digital
+                experiences.
+            </p>
+        </section>
+
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT WE DO</p>
+                    <h2>Solutions built around <span>your goals.</span></h2>
+                    <p class="section-description">
+                        Simple, effective digital services to help your business
+                        make a lasting impression.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">✳</div>
+                        <h3>Web Design</h3>
+                        <p>
+                            Clean, modern website layouts designed to make
+                            your brand stand out.
+                        </p>
+                        <a href="#contact">Discuss your project ↗</a>
+                    </article>
+
+                    <article class="service-card featured">
+                        <div class="service-icon">⌘</div>
+                        <h3>Web Development</h3>
+                        <p>
+                            Responsive websites built to work smoothly
+                            across different screen sizes.
+                        </p>
+                        <a href="#contact">Discuss your project ↗</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">↗</div>
+                        <h3>Digital Strategy</h3>
+                        <p>
+                            Practical ideas to communicate your value and
+                            connect with your target audience.
+                        </p>
+                        <a href="#contact">Discuss your project ↗</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section container" id="contact">
+            <div class="cta-content">
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+                <h2>Let's build something <span>meaningful.</span></h2>
+                <p>
+                    Tell us a little about your project and let's explore
+                    how we can help.
+                </p>
+
+                <form id="contactForm" class="contact-form">
+                    <label for="email">Your email address</label>
+                    <div class="form-row">
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                        <button type="submit" class="button primary-button">
+                            Get in Touch →
+                        </button>
+                    </div>
+                    <p id="formMessage" class="form-message"
+                       aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">nova<span>.</span></a>
+            <p>© <span id="year"></span> Nova Digital. Demo portfolio project.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
